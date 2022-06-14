@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:book",
+        "nbt": "{Damage:0}"
+      },
+      "title": "Tutorial",
+      "description": "Complete the tutorial",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "map:start",
+    "criteria": {
+      "item1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:book",
+              "nbt": "{display:{Name:'{\"text\":\"Note\",\"color\":\"white\",\"bold\":false,\"italic\":false}',Lore:['\"A strange note...\"','\"You wonder where it came from.\"']},Unbreakable:1,HideFlags:7}"
+            }
+          ]
+        }
+      }
+    }
+  }

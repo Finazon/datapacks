@@ -1,0 +1,5 @@
+execute as @p[nbt={Inventory:[{Slot:103b,id:"minecraft:leather_helmet",tag:{display:{Name:'{"text":"Helmet of Speed","color":"white","bold":true,"italic":false}'}}}]}] run tag @s add helma
+execute as @p[nbt={Inventory:[{Slot:103b,id:"minecraft:golden_helmet",tag:{display:{Name:'{"text":"King\'s Crown","color":"gold","bold":true,"italic":false}'}}}]}] run tag @s add helmb
+execute as @p[nbt={Inventory:[{Slot:103b,id:"minecraft:leather_helmet",tag:{display:{Name:'{"text":"Prestiged Assassin Hood","color":"dark_purple","bold":true,"italic":false}'}}}]}] run tag @p add helmc
+execute as @p[nbt={Inventory:[{Slot:103b,id:"minecraft:turtle_helmet",tag:{display:{Name:'{"text":"Fort Domma Soldier Hat","color":"green","bold":false,"italic":false}'}}}]}] run tag @s add helmd
+execute as @p[nbt={Inventory:[{Slot:103b,id:"minecraft:leather_helmet",tag:{display:{Name:'{"text":"Farmer\'s Hat","color":"yellow","bold":true,"italic":false}'}}}]}] run tag @s add helme

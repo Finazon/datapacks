@@ -1,0 +1,1 @@
+execute at @s run scoreboard players operation @s health -= @p cdamage

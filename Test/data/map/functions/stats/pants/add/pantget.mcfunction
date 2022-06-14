@@ -1,0 +1,4 @@
+execute as @p[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings",tag:{display:{Name:'{"text":"Prestiged Assassin Pants","color":"dark_purple","bold":true,"italic":false}'}}}]}] run tag @p add panta
+execute as @p[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings",tag:{display:{Name:'{"text":"King\'s Leggings","color":"gold","bold":true,"italic":false}'}}}]}] run tag @p add pantb
+execute as @p[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings",tag:{display:{Name:'{"text":"Pants of Steel","color":"dark_green","bold":true,"italic":false}'}}}]}] run tag @p add pantc
+execute as @p[nbt={Inventory:[{Slot:101b,id:"minecraft:leather_leggings",tag:{display:{Name:'{"text":"Farmer\'s Pants","color":"yellow","bold":true,"italic":false}'}}}]}] run tag @p add pantd

@@ -1,0 +1,3 @@
+execute as @p[tag=sethavea] unless entity @p[tag=helmhavec,tag=chesthaveb,tag=panthavea,tag=shoehavea] run function map:stats/set/remove/tags/seta
+execute as @p[tag=sethaveb] unless entity @p[tag=helmhaveb,tag=chesthavea,tag=panthaveb,tag=shoehaveb] run function map:stats/set/remove/tags/setb
+execute as @p[tag=sethavec] unless entity @p[tag=helmhavee,tag=chesthaved,tag=panthaved,tag=shoehavec] run function map:stats/set/remove/tags/setc

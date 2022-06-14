@@ -1,0 +1,2 @@
+execute as @p if entity @s[advancements={map:minicc=true}] unless entity @s[tag=adv1] run say test
+execute as @p if entity @s[advancements={map:minicc=true}] unless entity @s[tag=adv1] run tag @s add adv1

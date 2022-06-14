@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:paper",
+        "nbt": "{Damage:0}"
+      },
+      "title": "Horrific Hospital",
+      "description": "Complete the tutorial",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "map:minicc",
+    "criteria": {
+      "item1": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:paper",
+              "nbt": "{display:{Name:'{\"text\":\"Bandage\",\"color\":\"dark_red\",\"bold\":false,\"italic\":false}',Lore:['\"Looks like there is some blood on it.\"']},Unbreakable:1,HideFlags:7}"
+            }
+          ]
+        }
+      }
+    }
+  }

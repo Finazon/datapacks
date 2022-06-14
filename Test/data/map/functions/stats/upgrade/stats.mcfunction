@@ -1,0 +1,2 @@
+tag @p add gotup
+tellraw @p [{"color":"gold","text":"Pick a stat to upgrade: "},{"color":"red","text":"[Strength] ","bold":true,"clickEvent":{"action":"run_command","value":"/function map:stats/upgrade/str"}},{"color":"dark_green","text":"[Defense] ","bold":true,"clickEvent":{"action":"run_command","value":"/function map:stats/upgrade/def"}},{"color":"gray","text":"[Speed] ","bold":true,"clickEvent":{"action":"run_command","value":"/function map:stats/upgrade/spd"}}]

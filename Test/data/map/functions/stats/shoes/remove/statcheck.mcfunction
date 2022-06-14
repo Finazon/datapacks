@@ -1,0 +1,3 @@
+execute as @p[tag=shoehavea] unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots",tag:{display:{Name:'{"text":"Prestiged Assassin Slides","color":"dark_purple","bold":true,"italic":false}'}}}]}] run function map:stats/shoes/remove/tags/shoea
+execute as @p[tag=shoehaveb] unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots",tag:{display:{Name:'{"text":"King\'s shoes","color":"gold","bold":true,"italic":false}'}}}]}] run function map:stats/shoes/remove/tags/shoeb
+execute as @p[tag=shoehavec] unless entity @s[nbt={Inventory:[{Slot:100b,id:"minecraft:leather_boots",tag:{display:{Name:'{"text":"Farmer\'s Shoes","color":"yellow","bold":true,"italic":false}'}}}]}] run function map:stats/shoes/remove/tags/shoec

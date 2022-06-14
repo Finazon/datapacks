@@ -1,0 +1,4 @@
+execute as @p[nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Name:'{"text":"King\'s Robes","color":"gold","bold":true,"italic":false}'}}}]}] run tag @s add chesta
+execute as @p[nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Name:'{"text":"Prestiged Assassin Robes","color":"dark_purple","bold":true,"italic":false}'}}}]}] run tag @s add chestb
+execute as @p[nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Name:'{"text":"Chestplate of Rage","color":"dark_red","bold":true,"italic":false}'}}}]}] run tag @s add chestc
+execute as @p[nbt={Inventory:[{Slot:102b,id:"minecraft:leather_chestplate",tag:{display:{Name:'{"text":"Farmer\'s Shirt","color":"yellow","bold":true,"italic":false}'}}}]}] run tag @s add chestd
