@@ -58,4 +58,5 @@ tag @a add health
 team add player "player"
 team join player @a
 team modify player collisionRule never
+tag @p remove gotcolor
 function map:start/color
