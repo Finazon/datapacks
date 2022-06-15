@@ -5,6 +5,9 @@
     "minecraft:skeleton",
     "minecraft:zombie",
     "minecraft:cow",
-    "minecraft:spider"
+    "minecraft:spider",
+    "minecraft:sheep",
+    "minecraft:chicken",
+    "minecraft:pig"
   ]
 }
