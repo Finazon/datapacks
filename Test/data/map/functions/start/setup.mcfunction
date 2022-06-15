@@ -55,3 +55,7 @@ scoreboard objectives setdisplay list health
 tellraw @a {"text":"Scoreboard set up complete. Have fun.","color":"aqua"}
 tellraw @a {"color":"aqua","text":"Now do /function map:stats/armor and start messing around!"}
 tag @a add health
+team add player "player"
+team join player @a
+team modify player collisionRule never
+function map:start/color
