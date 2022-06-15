@@ -66,3 +66,4 @@ execute as @p if score @s level matches 66 run scoreboard players set @s expneed
 execute as @p if score @s level matches 67 run scoreboard players set @s expneed 394600
 execute as @p if score @s level matches 68 run scoreboard players set @s expneed 432000
 execute as @p if score @s level matches 69 run scoreboard players set @s expneed 472900
+execute as @p if score @s level matches 70 run scoreboard players set @s expneed 0

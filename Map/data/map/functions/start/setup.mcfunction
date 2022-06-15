@@ -50,8 +50,7 @@ scoreboard players set @a damage 1
 scoreboard players set @a cdamage 1
 scoreboard players set @a tdamage 1
 scoreboard players set @e death 0
-scoreboard objectives setdisplay belowName level
-scoreboard objectives setdisplay list health
+scoreboard objectives setdisplay list level
 tellraw @a {"text":"Scoreboard set up complete. Have fun.","color":"aqua"}
 tellraw @a {"color":"aqua","text":"Now do /function map:stats/armor and start messing around!"}
 tag @a add health
