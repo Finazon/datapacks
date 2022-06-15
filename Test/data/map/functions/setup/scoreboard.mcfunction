@@ -21,8 +21,6 @@ scoreboard objectives add levelb dummy "levelb"
 scoreboard objectives add exp dummy "exp"
 scoreboard objectives add expneed dummy "expneed"
 scoreboard objectives add expneedb dummy "expneedb"
-scoreboard objectives add expconst dummy "expconst"
-scoreboard objectives add expconsta dummy "expconsta"
 scoreboard objectives add damage dummy "damage"
 scoreboard objectives add cdamage dummy "cdamage"
 scoreboard objectives add tdamage dummy "tdamage"
@@ -48,8 +46,6 @@ scoreboard players set @a level 10
 scoreboard players set @a exp 0
 scoreboard players set @a expneed 100
 scoreboard players set @a expneedb 100
-scoreboard players set @a expconst 2
-scoreboard players set @a expconsta 3
 scoreboard players set @a damage 1
 scoreboard players set @a cdamage 1
 scoreboard players set @a tdamage 1

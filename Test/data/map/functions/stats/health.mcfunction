@@ -11,10 +11,11 @@ execute as @p at @s if score @s health <= @s death run kill @s
 execute as @p at @s if score @s health <= @s death run scoreboard players remove @p energy 2
 execute as @p at @s if score @s health <= @s death run scoreboard players operation @p health = @p maxhealth
 
-execute as @p if score @s health < @s maxhealth unless entity @s[tag=heal1] run tag @s add heal1
-execute as @p[tag=heal1] unless entity @s[tag=heal2] run schedule function map:stats/heal 15s
-execute as @p[tag=heal1] unless entity @s[tag=heal2] run tag @s add heal2
+execute as @p if score @s health < @s maxhealth run tag @s add heal1
+execute as @p[tag=heal1] unless entity @p[tag=heal2] run schedule function map:stats/heal 15s
+execute as @p[tag=heal1] unless entity @p[tag=heal2] run tag @s add heal2
+
 
 execute as @p if score @s energy < @s maxenergy unless entity @s[tag=ener1] run tag @s add ener1
 execute as @p[tag=ener1] unless entity @s[tag=ener2] run schedule function map:stats/regainenergy 300s
-execute as @p[tag=ener1] unless entity @s[tag=ener2] run tag @s add heal2
+execute as @p[tag=ener1] unless entity @s[tag=ener2] run tag @s add ener2
