@@ -33,7 +33,7 @@ scoreboard players set @a conststrengthb 9
 scoreboard players set @a defense 0
 scoreboard players set @a cdefense 0
 scoreboard players set @a constdefense 7
-scoreboard players set @a energy 10
+scoreboard players set @a energy 5
 scoreboard players set @a maxenergy 10
 scoreboard players set @a one 1
 scoreboard players set @a ten 10
@@ -42,10 +42,8 @@ scoreboard players set @e maxhealth 100
 scoreboard players set @e healconst 40
 scoreboard players set @a heal 0
 scoreboard players set @a level 1
-scoreboard players set @a level 10
 scoreboard players set @a exp 0
 scoreboard players set @a expneed 100
-scoreboard players set @a expneedb 100
 scoreboard players set @a damage 1
 scoreboard players set @a cdamage 1
 scoreboard players set @a tdamage 1
