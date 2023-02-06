@@ -19,7 +19,7 @@ function map:advancementrewards
 function map:weapons/check
 function map:stats/health
 function map:stats/givedata
-execute as @p unless score @s level matches 70 run function map:stats/upgrade/level
+execute as @p unless score @s level matches 70 if score @s exp >= @s expneed run function map:stats/upgrade/level
 execute as @p if score @s level matches 70 run scoreboard players set @s exp 0
 function map:menu
 function map:scrollsdeath
