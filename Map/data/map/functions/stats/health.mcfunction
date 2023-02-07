@@ -4,7 +4,7 @@ execute as @p at @p if score @s health > @s maxhealth run scoreboard players ope
 
 #---On Death Enitity---#
 execute as @e[type=zombie, tag=lvl1zomb] at @s if score @s health <= @s death run scoreboard players add @p exp 2
-execute as @e[type=zombie, tag=lvl1zomb] at @s if score @s health <= @s death run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Rotten Potato","italic":false,"color": "dark_green"}'},Lore:['"A rotting potato held by a zombie"','"Heals 2 health"']}}}
+execute as @e[type=zombie, tag=lvl1zomb] at @s if score @s health <= @s death run summon item ~ ~1 ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Rotten Potato","italic":false,"color": "dark_green"}'},Lore:['"A rotting potato held by a zombie"','"Heals 2 health"']}}}
 execute as @e[type=zombie, tag=lvl3zomb] at @s if score @s health <= @s death run scoreboard players add @p exp 5
 execute as @e[type=cow, tag=cow] at @s if score @s health <= @s death run scoreboard players add @p exp 2
 execute as @e[type=spider, tag=lvl4spid] at @s if score @s health <= @s death run scoreboard players add @p exp 8

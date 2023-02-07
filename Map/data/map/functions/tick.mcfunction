@@ -26,3 +26,4 @@ function map:scrollsdeath
 attribute @e[limit=1] generic.attack_damage base set 0.0001
 effect give @e resistance 2 225 true
 effect give @p saturation 2 225 true
+function map:rngupdate
